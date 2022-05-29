@@ -4,16 +4,16 @@ This is a fully self-hosted Jeopardy Trivia website with over 100,000 questions 
 
 ## Description
 
-This was a great way of using Node/Express to GET and POST data from a large JSON file
+This was a great way of using Node/Express to GET and POST data from a large JSON file. It tracks users by storing them in the playerStats JSON file to ensure score parity across browsers (unlike localStorage). Most remaining work is to be done on the frontend to make it run more efficiently (e.g. using React to maintain score in state rather than relying on button clicks to refresh data).
 
 ## Getting Started
-Fork and clone the repository, then run npm install and node server.js. I recommend using nodemon to keep the server running and track changes, if you wish to make any to the app.
+Fork and clone the repository, then run npm install and npm start. I recommend using nodemon to keep the server running and track changes, if you wish to make any to the app.
 
 ### Dependencies
 
 * Javascript
 * NodeJS
-* Express framework
+* Express
 
 
 ## Authors
